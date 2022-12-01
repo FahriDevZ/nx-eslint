@@ -4,10 +4,16 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "parserOptions": {
+        "project": ["apps/api/tsconfig.*?.json"]
+      },
       "rules": {}
     },
     {
       "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["apps/api/tsconfig.*?.json"]
+      },
       "rules": {}
     },
     {

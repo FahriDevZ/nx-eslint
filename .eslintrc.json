@@ -1,11 +1,11 @@
 {
-  "extends": ["airbnb-typescript/base"],
   "root": true,
   "ignorePatterns": ["**/*"],
   "plugins": ["@nrwl/nx"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": ["airbnb-typescript/base"],
       "rules": {
         "@nrwl/nx/enforce-module-boundaries": [
           "error",

@@ -10,13 +10,6 @@
       "rules": {}
     },
     {
-      "files": ["*.ts", "*.tsx"],
-      "parserOptions": {
-        "project": ["apps/api/tsconfig.*?.json"]
-      },
-      "rules": {}
-    },
-    {
       "files": ["*.js", "*.jsx"],
       "rules": {}
     }

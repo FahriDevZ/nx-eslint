@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["/apps/eslint/tsconfig.*?.json"]
+        "project": ["apps/eslint/tsconfig.*?.json"]
       },
       "extends": [
         "plugin:@nrwl/nx/angular",
